@@ -1,5 +1,7 @@
 function addStrings(num1, num2) {
   //Start coding here
+  let result = Number(num1) + Number(num2)
+  return result
 }
 
 let result1 = addStrings("11", "123");

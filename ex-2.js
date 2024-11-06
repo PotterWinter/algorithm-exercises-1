@@ -1,5 +1,9 @@
 function runningSum(arr) {
   //Start coding here
+  let sum = 0
+  return arr.map((arr,index) => sum += arr)
+
+  
 }
 
 let result1 = runningSum([1, 2, 3, 4]);
